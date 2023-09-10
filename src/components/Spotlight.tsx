@@ -7,7 +7,7 @@ const Spotlight = () => {
     <div className="flex flex-col space-y-2">
       <div className="text-xl lg:text-2xl">Check this out!</div>
       <div className="text-gray-100 text-opacity-80">
-        My new comprehensive portfolio, with my coding projects, papers,
+        Go to my new comprehensive portfolio, with my coding projects, papers,
         and poems, all in one pretty Next.js web app.
       </div>
     </div>
