@@ -16,7 +16,7 @@ const ListLink = (props: {
         <div className="text-base">{props.children}</div>
       </div>
       <div>
-        <div className="text-2xl lg:text-4xl">
+        <div className="text-2xl lg:text-4xl group-hover:rotate-45 transition-all duration-200 ease in out">
           <PiArrowUpRightDuotone />
         </div>
       </div>
