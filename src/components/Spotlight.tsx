@@ -14,7 +14,7 @@ const Spotlight = () => {
 
     <Link
       className="text-xs group flex flex-row items-center p-2 w-fit rounded-full border border-gray-100 border-opacity-80 transition-all duration-200 ease-in-out hover:ring hover:ring-gray-100 hover:ring-opacity-60 hover:border-opacity-100 text-gray-100 text-opacity-80 group-hover:text-opacity-100"
-      href="https://open.spotify.com/track/1fo2ctLqj3zBhRQKOXprol?si=616958a98ed2439e"
+      href="https://viditkhandelwal.com"
       rel="noreferrer noopener"
       target="_blank"
     >
