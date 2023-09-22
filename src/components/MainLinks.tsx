@@ -11,13 +11,13 @@ import CalLink from "./CalLink";
 const MainLinks = () => {
   return (
     <div className="col-span-4 w-full row-span-1 grid grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-8">
-      <MainLink href="mailto:vidit@viditkhandelwal.com">
+      <MainLink alt="Send me an email" href="mailto:vidit@viditkhandelwal.com">
         <PiEnvelopeDuotone />
       </MainLink>
-      <MainLink href="https://linkedin.com/in/viditkhandelwal">
+      <MainLink alt="Link to my LinkedIn profile" href="https://linkedin.com/in/viditkhandelwal">
         <PiLinkedinLogoDuotone />
       </MainLink>
-      <MainLink href="https://read.cv/viditkhandelwal">
+      <MainLink alt="Link to my Read.cv profile" href="https://read.cv/viditkhandelwal">
         <PiReadCvLogoDuotone />
       </MainLink>
       <CalLink />

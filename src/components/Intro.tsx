@@ -16,7 +16,7 @@ const Intro = () => {
         />
         <div className="flex flex-col space-y-2">
           <div className=" text-xl lg:text-2xl">Vidit Khandelwal</div>
-          <div className="text-gray-400">
+          <div className="text-gray-500">
             A passionate software engineer with an equally strong focus on the
             frontend.
           </div>

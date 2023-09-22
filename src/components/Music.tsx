@@ -33,9 +33,9 @@ const Music = () => {
         </MotionConfig>
       </motion.div>
       <div className="flex flex-col">
-        <div className="text-gray-400 text-xs">Currently listening to</div>
+        <div className="text-gray-500 text-xs">Currently listening to</div>
         <span className="text-gray-800">
-          Pink Starburst <span className="text-gray-400">&#8212; Nightly</span>
+          Pink Starburst <span className="text-gray-500">&#8212; Nightly</span>
         </span>
       </div>
     </div>
