@@ -17,13 +17,13 @@ const Music = () => {
           <motion.div
             layout
             className="w-1 h-1 bg-[#0000FF] rounded-md"
-            animate={{ height: ["4px", "12px"] }}
+            animate={{ height: ["4px", "16px"] }}
           ></motion.div>
 
           <motion.div
             layout
             className="w-1 h-1 bg-[#0000FF] rounded-md"
-            animate={{ height: ["6px", "20px"] }}
+            animate={{ height: ["6px", "18px", "12px"] }}
           ></motion.div>
           <motion.div
             layout
@@ -35,7 +35,7 @@ const Music = () => {
       <div className="flex flex-col">
         <div className="text-gray-500 text-xs">Currently listening to</div>
         <span className="text-gray-800">
-          Pink Starburst <span className="text-gray-500">&#8212; Nightly</span>
+          Getaway Car <span className="text-gray-500">&#8212; Taylor Swift</span>
         </span>
       </div>
     </div>
