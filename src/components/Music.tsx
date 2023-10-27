@@ -1,6 +1,7 @@
-'use client'
+"use client";
 
 import { motion, MotionConfig } from "framer-motion";
+import { PiArrowUpRight } from "react-icons/pi";
 
 const Music = () => {
   return (
@@ -35,7 +36,8 @@ const Music = () => {
       <div className="flex flex-col">
         <div className="text-gray-500 text-xs">Currently listening to</div>
         <span className="text-gray-800">
-          Getaway Car <span className="text-gray-500">&#8212; Taylor Swift</span>
+          Style (Taylor&apos;s Version){" "}
+          <span className="text-gray-500">&#8212; Taylor Swift</span>
         </span>
       </div>
     </div>

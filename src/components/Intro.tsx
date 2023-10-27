@@ -10,12 +10,12 @@ const Intro = () => {
         <Image
           width={128}
           height={128}
-          src="/memoji.png"
-          alt="Memoji"
+          src="/vidit-smile.png"
+          alt="Memoji version of Vidit Khandelwal"
           className="rounded-full p-2 bg-gray-200"
         />
         <div className="flex flex-col space-y-2">
-          <div className=" text-xl lg:text-2xl">Vidit Khandelwal</div>
+          <div className="text-xl lg:text-2xl">Vidit Khandelwal</div>
           <div className="text-gray-500">
             A passionate software engineer with an equally strong focus on the
             frontend.

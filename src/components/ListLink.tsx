@@ -1,13 +1,20 @@
 import Link from "next/link";
-import { PiShootingStarDuotone, PiArrowUpRightDuotone } from "react-icons/pi";
+import {
+  PiShootingStarDuotone,
+  PiArrowUpRightDuotone,
+  PiArrowUpRightFill,
+} from "react-icons/pi";
 
 const ListLink = (props: {
   href: string;
   icon: React.ReactNode;
   children: React.ReactNode;
+  tabIndex: number;
 }) => {
   return (
     <Link
+      role="link"
+      tabIndex={props.tabIndex}
       href={props.href}
       className="group p-2 lg:p-4 col-span-4 flex flex-row justify-between items-center bg-white rounded-lg transition-all duration-200 ease-in-out hover:ring hover:ring-gray-300 hover:shadow-2xl hover:shadow-[#0000FF]"
     >
@@ -17,7 +24,12 @@ const ListLink = (props: {
       </div>
       <div>
         <div className="text-2xl lg:text-4xl group-hover:rotate-45 transition-all duration-200 ease in out">
-          <PiArrowUpRightDuotone />
+          <span className="group-hover:hidden flex">
+            <PiArrowUpRightDuotone />
+          </span>
+          <span className="group-hover:flex hidden">
+            <PiArrowUpRightFill />
+          </span>
         </div>
       </div>
     </Link>

@@ -1,9 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
+import { Manrope, Inter, Inter_Tight } from "next/font/google";
 import Head from "next/head";
 
 const manrope = Manrope({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vidit Khandelwal Links",
@@ -62,7 +63,7 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
-      <body className={manrope.className}>{children}</body>
+      <body className={`${manrope.className}`}>{children}</body>
     </html>
   );
 }
