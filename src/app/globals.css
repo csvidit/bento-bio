@@ -14,5 +14,5 @@
 .extended{
     font-family: 'Mona Sans', sans-serif;
     font-stretch: 125%;
-    @apply font-semibold
+    @apply font-medium
 }
