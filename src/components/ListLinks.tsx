@@ -9,21 +9,21 @@ const ListLinks = () => {
   return (
     <>
       <ListLink
-        tabIndex={4}
+        tabIndex={0}
         href="https://turbobiz.xyz"
         icon={<PiShootingStarDuotone />}
       >
         Turbobiz
       </ListLink>
       <ListLink
-        tabIndex={5}
+        tabIndex={0}
         href="https://xzayvian.xyz"
         icon={<PiRobotDuotone />}
       >
         Xzayvian GPT
       </ListLink>
       <ListLink
-        tabIndex={6}
+        tabIndex={0}
         href="https://bento-portfolio.demos.vidit.page"
         icon={<PiBrowserDuotone />}
       >

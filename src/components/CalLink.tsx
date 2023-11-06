@@ -9,7 +9,7 @@ const CalLink = () => {
     >
       <PiVideoCameraDuotone />
       <div className="flex flex-col">
-        <div className="text-gray-800 text-base">
+        <div className="text-gray-800 text-base font-semibold extended">
           Let&apos;s schedule a meeting!
         </div>
         <div className="text-gray-500 text-xs">via Calendly</div>

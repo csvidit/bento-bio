@@ -5,7 +5,7 @@ const Spotlight = () => {
   return (
     <div className="p-4 lg:p-8 flex flex-col justify-between space-y-8 lg:space-y-0 col-start-1 lg:col-start-auto col-span-2 bg-[#0000FF] text-gray-100 rounded-2xl">
       <div className="flex flex-col space-y-2">
-        <div className="text-xl lg:text-2xl">Check this out!</div>
+        <div className="text-xl lg:text-2xl extended">Check this out!</div>
         <div className="text-gray-100 text-opacity-80">
           Go to my new comprehensive portfolio, with my coding projects, papers,
           and poems, all in one pretty Next.js web app.
