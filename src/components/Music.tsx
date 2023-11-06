@@ -24,7 +24,7 @@ const Music = () => {
           <motion.div
             layout
             className="w-1 h-1 bg-[#0000FF] rounded-md"
-            animate={{ height: ["6px", "18px", "12px"] }}
+            animate={{ height: ["6px", "18px"] }}
           ></motion.div>
           <motion.div
             layout

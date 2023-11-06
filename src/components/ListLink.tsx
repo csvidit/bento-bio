@@ -20,7 +20,7 @@ const ListLink = (props: {
     >
       <div className="flex flex-row space-x-2 items-center">
         <div className="text-2xl lg:text-4xl">{props.icon}</div>
-        <div className="text-base">{props.children}</div>
+        <p className="text-base">{props.children}</p>
       </div>
       <div>
         <div className="text-2xl lg:text-4xl group-hover:rotate-45 transition-all duration-200 ease in out">
