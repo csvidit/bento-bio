@@ -20,7 +20,7 @@ export default function Home() {
         <Intro />
         <Spotlight />
         <MainLinks />
-        <Divider />
+        {/* <Divider /> */}
         <ListLinks />
         <Footer />
       </MainContent>

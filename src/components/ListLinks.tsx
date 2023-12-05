@@ -17,17 +17,17 @@ const ListLinks = () => {
       </ListLink>
       <ListLink
         tabIndex={0}
+        href="https://snippetopia.xyz"
+        icon={<PiBrowserDuotone />}
+      >
+        Snippetopia
+      </ListLink>
+      <ListLink
+        tabIndex={0}
         href="https://xzayvian.xyz"
         icon={<PiRobotDuotone />}
       >
         Xzayvian GPT
-      </ListLink>
-      <ListLink
-        tabIndex={0}
-        href="https://bento-portfolio.demos.vidit.page"
-        icon={<PiBrowserDuotone />}
-      >
-        Bento Portfolio Concept
       </ListLink>
     </>
   );

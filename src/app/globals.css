@@ -11,6 +11,10 @@
     font-stretch: 75% 125%;
   }
 
+html{
+  font-family: 'Mona Sans', sans-serif;
+}
+
 .extended{
     font-family: 'Mona Sans', sans-serif;
     font-stretch: 125%;
