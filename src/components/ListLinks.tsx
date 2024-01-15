@@ -2,7 +2,9 @@ import {
   PiShootingStarDuotone,
   PiRobotDuotone,
   PiBrowserDuotone,
+  PiPaintBrushDuotone,
 } from "react-icons/pi";
+import { RxShadowNone } from "react-icons/rx";
 import ListLink from "./ListLink";
 
 const ListLinks = () => {
@@ -17,6 +19,20 @@ const ListLinks = () => {
       </ListLink>
       <ListLink
         tabIndex={0}
+        href="https://snippetopia.xyz"
+        icon={<PiBrowserDuotone />}
+      >
+        Snippetopia
+      </ListLink>
+      <ListLink
+        tabIndex={0}
+        href="https://lume.csvid.it"
+        icon={<RxShadowNone />}
+      >
+        Lume Wallpapers
+      </ListLink>
+      <ListLink
+        tabIndex={0}
         href="https://xzayvian.xyz"
         icon={<PiRobotDuotone />}
       >
@@ -24,10 +40,10 @@ const ListLinks = () => {
       </ListLink>
       <ListLink
         tabIndex={0}
-        href="https://bento-portfolio.demos.vidit.page"
-        icon={<PiBrowserDuotone />}
+        href="https://studio.viditkhandelwal.com"
+        icon={<PiPaintBrushDuotone />}
       >
-        Bento Portfolio Concept
+        Vidit Khandelwal Studio
       </ListLink>
     </>
   );
