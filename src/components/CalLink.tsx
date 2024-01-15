@@ -5,7 +5,7 @@ const CalLink = () => {
   return (
     <Link
       href="https://calendly.com/viditkhandelwal"
-      className="group p-2 lg:p-4 col-span-3 lg:col-span-2 flex flex-row space-x-2 justify-around items-center bg-white rounded-lg transition-all duration-200 ease-in-out outline-offset-[#0000FF] hover:ring hover:ring-gray-300 hover:shadow-2xl hover:shadow-[#0000FF] text-2xl lg:text-4xl"
+      className="group p-2 lg:p-4 col-span-3 lg:col-span-2 flex flex-row space-x-2 justify-around items-center bg-white rounded-lg transition-all duration-200 ease-in-out outline-offset-[#0000FF] hover:ring hover:ring-gray-300 hover:shadow-lg hover:shadow-[#0000FF] text-2xl lg:text-4xl"
     >
       <PiVideoCameraDuotone />
       <div className="flex flex-col">
