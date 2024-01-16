@@ -9,10 +9,10 @@ const Spotlight = () => {
           Check this out!
         </div>
         <div className="block lg:hidden text-xl lg:text-2xl extended">
-          Check out to my comprehensive portfolio
+          Check out my comprehensive portfolio
         </div>
         <div className="hidden lg:block text-gray-100 text-opacity-80">
-          Go to my new comprehensive portfolio, with my coding projects, papers,
+          It contains my coding projects, papers,
           and poems, all in one pretty Next.js web app.
         </div>
       </div>
