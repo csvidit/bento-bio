@@ -17,18 +17,18 @@ const Music = () => {
         >
           <motion.div
             layout
-            className="w-1 h-1 bg-[#0000FF] rounded-md"
+            className="w-1 h-1 bg-accent rounded-md"
             animate={{ height: ["4px", "16px"] }}
           ></motion.div>
 
           <motion.div
             layout
-            className="w-1 h-1 bg-[#0000FF] rounded-md"
+            className="w-1 h-1 bg-accent rounded-md"
             animate={{ height: ["6px", "18px"] }}
           ></motion.div>
           <motion.div
             layout
-            className="w-1 h-1 bg-[#0000FF] rounded-md"
+            className="w-1 h-1 bg-accent rounded-md"
             animate={{ height: ["20px", "8px"] }}
           ></motion.div>
         </MotionConfig>

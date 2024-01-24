@@ -3,7 +3,7 @@ import { PiArrowUpRight } from "react-icons/pi";
 
 const Spotlight = () => {
   return (
-    <Link href="https://viditkhandelwal.com" target="_blank" className="p-4 lg:p-8 flex flex-col justify-between space-y-8 lg:space-y-0 col-start-1 lg:col-start-auto col-span-2 bg-[#0000FF] text-gray-100 rounded-2xl">
+    <Link href="https://viditkhandelwal.com" target="_blank" className="p-4 lg:p-8 flex flex-col justify-between space-y-8 lg:space-y-0 col-start-1 lg:col-start-auto col-span-2 bg-accent text-gray-100 rounded-2xl">
       <div className="flex flex-col space-y-2">
         <div className="hidden lg:block text-xl lg:text-2xl extended">
           Check this out!
