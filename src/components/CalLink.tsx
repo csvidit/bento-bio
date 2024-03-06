@@ -12,7 +12,7 @@ const CalLink = () => {
         <div className="text-gray-800 text-base font-semibold extended">
           Let&apos;s schedule a meeting!
         </div>
-        <div className="text-gray-500 text-xs">via Calendly</div>
+        <div className="text-gray-500 text-xs">via Cal</div>
       </div>
     </Link>
   );
