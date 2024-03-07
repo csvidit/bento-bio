@@ -3,6 +3,7 @@ import {
   PiRobotDuotone,
   PiBrowserDuotone,
   PiPaintBrushDuotone,
+  PiPenDuotone,
 } from "react-icons/pi";
 import { RxShadowNone } from "react-icons/rx";
 import ListLink from "./ListLink";
@@ -10,6 +11,13 @@ import ListLink from "./ListLink";
 const ListLinks = () => {
   return (
     <>
+      <ListLink
+        tabIndex={0}
+        href="https://v-k.pw/1cTmyEzt76"
+        icon={<PiPenDuotone />}
+      >
+        Essential UI libraries for React
+      </ListLink>
       <ListLink
         tabIndex={0}
         href="https://turbobiz.xyz"
