@@ -11,6 +11,13 @@ import ListLink from "./ListLink";
 const ListLinks = () => {
   return (
     <>
+    <ListLink
+        tabIndex={0}
+        href="https://v-k.pw/7pvHzhtOHy"
+        icon={<PiPenDuotone />}
+      >
+        Engineering Blog
+      </ListLink>
       <ListLink
         tabIndex={0}
         href="https://v-k.pw/1cTmyEzt76"
